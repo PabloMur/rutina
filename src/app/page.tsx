@@ -1,5 +1,5 @@
 import RutinaCard from "@/components/RutinaCard";
-import Image from "next/image";
+
 const rutinaCompleta = [
   {
     day: "Día 1 - Pecho y Tríceps: Lunes",
@@ -40,6 +40,15 @@ export default function Home() {
         {rutinaCompleta.map((rutina, index) => (
           <RutinaCard key={index} day={rutina.day} steps={rutina.steps} />
         ))}
+      </div>
+      <div className="w-full h-96 overflow-clip">
+        <video
+          src="../../../yb.mp4"
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          className="m-auto"
+        ></video>
       </div>
     </main>
   );
