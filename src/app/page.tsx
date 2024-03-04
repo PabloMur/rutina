@@ -2,7 +2,7 @@ import RutinaCard from "@/components/RutinaCard";
 import Image from "next/image";
 const rutinaCompleta = [
   {
-    day: "Día 1 - Pecho y Tríceps:",
+    day: "Día 1 - Pecho y Tríceps: Lunes",
     steps: [
       "Press de banca: 4 series x 8-10 repeticiones",
       "Fondos en paralelas: 3 series x 12 repeticiones",
@@ -12,7 +12,7 @@ const rutinaCompleta = [
     ],
   },
   {
-    day: "Día 2 - Espalda y Bíceps:",
+    day: "Día 2 - Espalda y Bíceps: Miércoles / Jueves",
     steps: [
       "Dominadas o pull-ups: 4 series x 8-10 repeticiones",
       "Peso muerto: 4 series x 8-10 repeticiones",
