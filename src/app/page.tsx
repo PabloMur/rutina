@@ -22,7 +22,7 @@ const rutinaCompleta = [
     ],
   },
   {
-    day: "Día 3 - Piernas y Hombros:",
+    day: "Día 3 - Piernas y Hombros: Viernes / Sábado",
     steps: [
       "Sentadillas: 4 series x 10-12 repeticiones",
       "Prensa de piernas: 3 series x 12 repeticiones",
@@ -36,19 +36,19 @@ const rutinaCompleta = [
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-2">
-      <div>
-        {rutinaCompleta.map((rutina, index) => (
-          <RutinaCard key={index} day={rutina.day} steps={rutina.steps} />
-        ))}
-      </div>
       <div className="w-full h-96 overflow-clip">
         <video
-          src="../../../yb.mp4"
+          src="../../../rocky.mp4"
           autoPlay={true}
           loop={true}
           muted={true}
           className="m-auto"
         ></video>
+      </div>
+      <div className="m-auto">
+        {rutinaCompleta.map((rutina, index) => (
+          <RutinaCard key={index} day={rutina.day} steps={rutina.steps} />
+        ))}
       </div>
     </main>
   );
