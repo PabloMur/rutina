@@ -36,7 +36,7 @@ const rutinaCompleta = [
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between">
-      <div className="w-full h-fit overflow-clip">
+      <div className="w-full">
         <video
           src="../../../rocky.mp4"
           autoPlay={true}
