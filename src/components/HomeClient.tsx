@@ -56,7 +56,7 @@ export default function HomeClient() {
                 day={rutina.day}
                 groups={rutina.groups}
                 dayId={rutina.id}
-                userId={userId}
+                userId={userId!}
               />
             ))}
           </div>
