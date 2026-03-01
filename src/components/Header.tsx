@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 
 const STORAGE_KEY = "rutina_user";
 const USER_NAMES: Record<string, string> = {
-  pablo: "Pablo",
-  victoria: "Victoria",
+  pablo: "Poli",
+  victoria: "Pola",
 };
 
 export default function Header() {
