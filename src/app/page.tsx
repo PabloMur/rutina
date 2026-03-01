@@ -1,5 +1,4 @@
-import RutinaCard from "@/components/RutinaCard";
-import { rutinaCompleta } from "@/data/routines";
+import HomeClient from "@/components/HomeClient";
 
 export default function Home() {
   return (
@@ -20,21 +19,17 @@ export default function Home() {
               Entrena como un campeón
             </p>
             <p className="text-white text-5xl font-black leading-none">
-              4 DÍAS
+              TU RUTINA
             </p>
-            <p className="text-gray-400 mt-2 text-sm">de entrenamiento semanal</p>
+            <p className="text-gray-400 mt-2 text-sm">
+              Plan de entrenamiento semanal
+            </p>
           </div>
         </div>
       </section>
 
-      {/* Grid de rutinas */}
-      <section className="max-w-5xl mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-          {rutinaCompleta.map((rutina) => (
-            <RutinaCard key={rutina.id} day={rutina.day} steps={rutina.steps} />
-          ))}
-        </div>
-      </section>
+      {/* Rutinas del usuario activo */}
+      <HomeClient />
     </main>
   );
 }
