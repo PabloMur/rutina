@@ -34,7 +34,7 @@ export default function RutinaCard({ day, groups, dayId, userId }: Props) {
       } else {
         next.add(exercise);
       }
-      localStorage.setItem(storageKey, JSON.stringify([...next]));
+      localStorage.setItem(storageKey, JSON.stringify(Array.from(next)));
       return next;
     });
   };
