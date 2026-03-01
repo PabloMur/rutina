@@ -31,7 +31,7 @@ export default function Header() {
     <header className="bg-gray-950 border-b border-lime-400/20 py-4 px-6 flex items-center justify-between">
       <div>
         <p className="text-lime-400 text-xs uppercase tracking-[0.3em] font-semibold">
-          Pablo Murillo
+          Poli & Pola
         </p>
         <h1 className="font-black text-2xl text-white tracking-tight uppercase leading-tight">
           Tu Rutina
