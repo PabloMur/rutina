@@ -24,7 +24,7 @@ export default function Header() {
   };
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/[.08] bg-[#0a0d0a]/85 px-3 py-2.5 backdrop-blur-xl sm:px-8 sm:py-3">
+    <header className="sticky top-0 z-40 border-b border-white/[.08] bg-[#0a0d0a]/85 px-5 py-2.5 backdrop-blur-xl sm:px-8 sm:py-3 lg:px-12">
       <div className="mx-auto flex max-w-7xl items-center justify-between">
         <a href="#inicio" aria-label="Tu Rutina, inicio" className="group flex min-w-0 items-center gap-2.5 sm:gap-3">
           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-xl bg-lime-300 text-xs font-black tracking-tighter text-[#10150b] shadow-[0_0_28px_rgba(190,242,100,.16)] transition-transform group-hover:rotate-[-6deg] sm:h-10 sm:w-10 sm:rounded-2xl sm:text-sm">
