@@ -6,9 +6,8 @@ import Header from "@/components/Header";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Rutina de Gimnasio | Ejercicios para mantenerse en forma",
-  description:
-    "Rutina de gimnasio personalizada para Poli y Pola. Seguí tus ejercicios y alcanzá tus objetivos de fitness.",
+  title: "Tu Rutina — Poli & Pola",
+  description: "Entrenamiento personal para Poli y Pola. Seguí tus sesiones, marcá tus ejercicios y mirá tu progreso semanal.",
   keywords:
     "Rutina de gimnasio, Ejercicios de gimnasio, Entrenamiento de fuerza, Rutina de ejercicios, Rutina de entrenamiento, Ejercicios para aumentar masa muscular, Plan de entrenamiento, Ejercicios de musculación, Ejercicios para perder peso, Entrenamiento físico, Ejercicios de cardio, Ejercicios para definir músculos, Rutina de entrenamiento semanal, Rutina de ejercicios para principiantes, Consejos de fitness",
 };
